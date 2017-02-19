@@ -35,7 +35,7 @@ class TailBot(IRCClient):
         
     def fileUpdated(self, line, filename):
         for channel in self.channelsIn:
-            self.msg(channel, '[%s] %s' % (filename, line))
+             self.msg(channel, '%s'  %  (line[28:]))
     
     
 class TailBotFactory(ReconnectingClientFactory):
