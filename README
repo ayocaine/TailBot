@@ -1,1 +1,7 @@
 Simple IRC Tailbot written for a friend. Modified to strip the date and file name for cowrie logs.
+
+Enable text logging in cowrie.cfg and point the bot at that file.
+
+1. python Configmaker.py
+    answer the questions
+2. python Run.py
